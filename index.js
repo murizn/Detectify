@@ -5,7 +5,7 @@ const { Webhook, MessageBuilder } = require('discord-webhook-node');
 let trackedUsers = new Map();
 let currentUserId = null;
 
-client.login("");
+client.login("token de uma conta aqui");
 
 client.on("message", msg => {
   if (msg.author.id !== currentUserId) return;
