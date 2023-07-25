@@ -5,7 +5,7 @@ Este é o README do meu detectify. Aqui você encontrará informações sobre co
 # 📋 Pré-requisitos
 Antes de começar a usar este projeto, certifique-se de ter instalado todas as dependências necessárias. Você pode encontrar uma lista de dependências na seção Instalação.
 
-#🔧 Instalação
+# 🔧 Instalação
 Para instalar este projeto, siga estas etapas:
 
 Clone este repositório para o seu computador.
