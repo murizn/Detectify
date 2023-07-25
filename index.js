@@ -5,7 +5,7 @@ const { Webhook, MessageBuilder } = require('discord-webhook-node');
 let trackedUsers = new Map();
 let currentUserId = null;
 
-client.login("MTA3OTQwMTM2MTU3MTA1MzU2OQ.Gsl4i6.iuvuMPC81yBRDUVsOMcZtcCJ4phopNnAG5xl7Y");
+client.login("");
 
 client.on("message", msg => {
   if (msg.author.id !== currentUserId) return;
@@ -191,7 +191,7 @@ server.get('/about/investigar/:id', urlencodedParser, (req, res) => {
   trackedUsers.set(currentUserId, { lastMessageId: null, webhookUrl: newWebhookUrl });
 
 
-  res.json({ "status": "anti chifre online 🐂", "na webhook:": newWebhookUrl });
+  res.json({ "feito por murizada, deixe os créditos no código": "anti chifre online 🐂 ", "na webhook:": newWebhookUrl });
 });
 
 
